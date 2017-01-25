@@ -1,5 +1,5 @@
 # QtContinuousSpaceSimulation1
-Continuous space particle simulation using Qt GUI framework
+2-D Continuous space particle simulation using Qt GUI framework
 
 Simulation Snapshots
 
