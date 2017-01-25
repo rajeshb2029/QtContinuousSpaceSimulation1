@@ -29,7 +29,8 @@ public:
     
   GraphicsView1(SimulationWidget *gridWidget, QWidget *parent = 0) : QGraphicsView(parent) {
     pixmap = new QPixmap(IMAGE_WIDTH, IMAGE_HEIGHT);
-    pixmap->fill(Qt::white);
+//    pixmap->fill(Qt::white);
+    pixmap->fill(Qt::black);
 
     QPainter qp(pixmap);        
 //    pixmap->fill(Qt::black);
@@ -65,7 +66,8 @@ public:
 
   void drawSimulationSystem() {
 //    pixmap = new QPixmap(IMAGE_WIDTH, IMAGE_HEIGHT);        
-    pixmap->fill(Qt::white);
+//    pixmap->fill(Qt::white);
+    pixmap->fill(Qt::black);
     QPainter qp(pixmap);    
     if(drawGridFlag) {
       drawGrid(&qp);
